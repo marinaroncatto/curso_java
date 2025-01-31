@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="unidade_7"/>
 	<classpathentry kind="src" path="unidade_8"/>
 	<classpathentry kind="src" path="poo1"/>
+	<classpathentry kind="src" path="poo2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
