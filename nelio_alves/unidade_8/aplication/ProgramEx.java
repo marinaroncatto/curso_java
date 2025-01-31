@@ -3,7 +3,7 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramEx {
 
 	public static void main(String[] args) {
 		// Orientação Objetos 1 - resolvendo sem OO
