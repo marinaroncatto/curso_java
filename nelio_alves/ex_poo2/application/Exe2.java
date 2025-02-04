@@ -22,13 +22,13 @@ public class Exe2 {
 		System.out.print("Tax:");
 		emp.tax = sc.nextDouble();
 		
-		System.out.println("Employee: "+emp.toString());
+		System.out.println("Employee: "+emp);
 		System.out.print("Which percentage to increase salary? ");
 		double perc = sc.nextDouble();
 		
 		emp.increaseSalary(perc);
 		
-		System.out.println("Updated data: "+emp.toString());
+		System.out.println("Updated data: "+emp);
 		sc.close();
 
 	}

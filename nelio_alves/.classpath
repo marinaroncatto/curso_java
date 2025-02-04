@@ -14,5 +14,9 @@
 	<classpathentry kind="src" path="poo2"/>
 	<classpathentry kind="src" path="ex_poo1"/>
 	<classpathentry kind="src" path="ex_poo2"/>
+	<classpathentry kind="src" path="ex_poo3"/>
+	<classpathentry kind="src" path="poo3"/>
+	<classpathentry kind="src" path="poo4"/>
+	<classpathentry kind="src" path="poo5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
