@@ -17,6 +17,7 @@ public class Exe5 {
 		int aNumber = sc.nextInt();
 
 		System.out.print("Enter account holder: ");
+		sc.nextLine();
 		String name = sc.nextLine();
 
 		Account ac = new Account(aNumber, name);
@@ -32,19 +33,19 @@ public class Exe5 {
 			ac.deposit(deposit);
 		}
 
-		System.out.println("Accout data: " + ac);
+		System.out.println("Accout data: \n" + ac);
 
 		System.out.println("Enter a deposit value: ");
 		deposit = sc.nextDouble();
 		ac.deposit(deposit);
 
-		System.out.println("Updated account data: " + ac);
+		System.out.println("Updated account data: \n" + ac);
 
 		System.out.println("Enter a withdraw value: ");
 		double withdraw = sc.nextDouble();
 		ac.withdraw(withdraw);
 
-		System.out.println("Updated account data:" + ac);
+		System.out.println("Updated account data: \n" + ac);
 
 		sc.close();
 
