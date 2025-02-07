@@ -6,21 +6,17 @@ public class Account {
 	private int aNumber;
 	private String name;
 	private double aValue;
-	
-	
-	public Account() {
-		
-	}
+			
 	
 	public Account(int aNumber, String name) {
 		this.aNumber = aNumber;
 		this.name = name;
 	}
 	
-	public Account(int aNumber, String name, double aValue) {
+	public Account(int aNumber, String name, double initialDeposit) {
 		this.aNumber = aNumber;
 		this.name = name;
-		this.aValue = aValue;
+		deposit(initialDeposit);
 	}
 	
 	public int getAnumber() {
@@ -38,21 +34,7 @@ public class Account {
 	
 	public String getName() {
 		return name;
-	}
-	
-	/* public void create(char opt) {
-		
-		if (opt == 'y') {	
-			Scanner sc = new Scanner(System.in);
-			System.out.println("Enter inicial deposit value: ");
-			double deposit = sc.nextDouble();
-			Account ac = new Account(aNumber,name, deposit);
-			sc.close();
-		}else {
-			Account ac = new Account(aNumber,name);
-		}
-		
-	}*/
+	}		
 	
 	public void deposit(double deposit) {
 		this.aValue += deposit;
