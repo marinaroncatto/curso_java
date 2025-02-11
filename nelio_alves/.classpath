@@ -24,5 +24,8 @@
 	<classpathentry kind="src" path="ex_poo5"/>
 	<classpathentry kind="src" path="un10_aula1_vetores"/>
 	<classpathentry kind="src" path="un10_aula2_vetores"/>
+	<classpathentry kind="src" path="un_10_ex1_vetores_negativos"/>
+	<classpathentry kind="src" path="un10_ex_vetores_soma_vetor"/>
+	<classpathentry kind="src" path="un10_ex_vetores_alturas"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
