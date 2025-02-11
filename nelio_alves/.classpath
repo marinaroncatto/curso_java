@@ -25,7 +25,10 @@
 	<classpathentry kind="src" path="un10_aula1_vetores"/>
 	<classpathentry kind="src" path="un10_aula2_vetores"/>
 	<classpathentry kind="src" path="un_10_ex1_vetores_negativos"/>
-	<classpathentry kind="src" path="un10_ex_vetores_soma_vetor"/>
-	<classpathentry kind="src" path="un10_ex_vetores_alturas"/>
+	<classpathentry kind="src" path="un10_ex2_vetores_soma_vetor"/>
+	<classpathentry kind="src" path="un10_ex3_vetores_alturas"/>
+	<classpathentry kind="src" path="un10_ex4_vetores_numeros_pares"/>
+	<classpathentry kind="src" path="un10_ex5_vetores_maior_posicao"/>
+	<classpathentry kind="src" path="un10_ex6_vetores_soma_vetores"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
