@@ -30,5 +30,8 @@
 	<classpathentry kind="src" path="un10_ex4_vetores_numeros_pares"/>
 	<classpathentry kind="src" path="un10_ex5_vetores_maior_posicao"/>
 	<classpathentry kind="src" path="un10_ex6_vetores_soma_vetores"/>
+	<classpathentry kind="src" path="un10_ex7_vetores_abaixo_da_media"/>
+	<classpathentry kind="src" path="un10_ex8_vetores_media_pares"/>
+	<classpathentry kind="src" path="un10_ex9_vetores_mais_velho"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
