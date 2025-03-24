@@ -39,5 +39,6 @@
 	<classpathentry kind="src" path="un10_aula3_boxing"/>
 	<classpathentry kind="src" path="un10_aula3_wrapperClasses"/>
 	<classpathentry kind="src" path="un10_aula4_for_each"/>
+	<classpathentry kind="src" path="un10_aula5_listas"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
