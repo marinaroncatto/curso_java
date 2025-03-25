@@ -41,5 +41,6 @@
 	<classpathentry kind="src" path="un10_aula4_for_each"/>
 	<classpathentry kind="src" path="un10_aula5_listas"/>
 	<classpathentry kind="src" path="un10_exercicio_lista"/>
+	<classpathentry kind="src" path="un10_aula6_matrizes"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
