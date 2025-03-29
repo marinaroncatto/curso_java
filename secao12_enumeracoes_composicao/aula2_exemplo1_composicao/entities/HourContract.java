@@ -41,6 +41,9 @@ public class HourContract {
 		this.hours = hours;
 	}
 	
-	
+	//função para calcular o valor trabalhado
+	public double totalValue() {
+		return valuePerHour * hours;
+	}
 	
 }
