@@ -1,21 +1,19 @@
 package entities;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class OrderItem {
 	private Integer quantity;
 	private Double price;
+	private Product product;
 	
-	private List<Product> products = new ArrayList<>();
-
 	public OrderItem() {
 		
 	}
 
-	public OrderItem(Integer quantity, Double price) {		
+	public OrderItem(Integer quantity, Double price, Product product) {		
 		this.quantity = quantity;
 		this.price = price;
+		this.product = product;
 	}
 
 	public Integer getQuantity() {
@@ -34,17 +32,13 @@ public class OrderItem {
 		this.price = price;
 	}
 
-	public List<Product> getProducts() {
-		return products;
-	}
-
-	public void addProduct(Product product) {
-		products.add(product);
+	public Product getProduct() {
+		return product;
 	}
 	
-	public void removeProduct(Product product) {
-		products.remove(product);
-	}
+	public void setProduct(Product product) {
+		this.product = product;
+	}	
 	
 	public double subTotal(int quantity, double priceProduct) {
 		return this.price = quantity * priceProduct;

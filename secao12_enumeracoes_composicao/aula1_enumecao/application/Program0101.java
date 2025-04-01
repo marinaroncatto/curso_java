@@ -2,7 +2,7 @@ package application;
 
 import java.util.Date;
 
-import entities.Order;
+import entities.Order_;
 import entities.enums.OrderStat;
 
 public class Program0101 {
@@ -10,7 +10,7 @@ public class Program0101 {
 	public static void main(String[] args) {
 		// Enumerações
 		
-		Order order = new Order(1080, new Date(), OrderStat.PENDING_PAYMENT);
+		Order_ order = new Order_(1080, new Date(), OrderStat.PENDING_PAYMENT);
 		
 		System.out.println(order);
 		
