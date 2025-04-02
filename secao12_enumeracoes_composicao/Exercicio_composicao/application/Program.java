@@ -43,6 +43,7 @@ public class Program {
 		for(int i = 1; i <= n; i++) {
 			System.out.println("Enter #"+i+" item data: ");
 			System.out.print("Product name: ");
+			sc.nextLine();
 			String nome = sc.nextLine();
 			System.out.print("Product price: ");
 			double price = sc.nextDouble();
@@ -51,7 +52,7 @@ public class Program {
 			
 			System.out.print("Quantity: ");
 			int quantity = sc.nextInt();
-			sc.nextLine();
+			
 			
 			OrderItem item = new OrderItem(quantity, price, p);
 			order.addItem(item);

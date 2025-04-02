@@ -45,10 +45,10 @@ public class OrderItem {
 	}
 	
 	public String toString() {
-		return product.getName()+
+		return product.getName()+", $"+
 				String.format("%.2f", price)+
 				", Quantity: "+ quantity+
-				", Subtotal: "+
+				", Subtotal: $"+
 				String.format("%.2f", subTotal(quantity, product.getPrice()));
 		
 	}
