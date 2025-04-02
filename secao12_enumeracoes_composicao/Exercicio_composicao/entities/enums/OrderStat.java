@@ -4,5 +4,5 @@ public enum OrderStat {
 	PENDING_PAYENT,
 	PROCESSING,
 	SHIPPED,
-	DELIVERED;
+	DELIVERED
 }

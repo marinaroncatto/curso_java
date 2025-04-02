@@ -17,7 +17,7 @@ public class Program {
 	public static void main(String[] args) throws ParseException {
 		// Exercício fixação
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -33,7 +33,7 @@ public class Program {
 		
 		System.out.println("Enter order data: ");
 		System.out.print("Status: ");
-		OrderStat status = OrderStat.valueOf(sc.nextLine());  
+		OrderStat status = OrderStat.valueOf(sc.next());  
 		
 		Order_ order = new Order_(new Date(), status, c1);
 		
