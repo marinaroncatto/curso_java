@@ -51,9 +51,6 @@ public class Order_ {
 		this.client = client;
 	}
 
-	public List<OrderItem> getItems() {
-		return items;
-	}
 
 	public void addItem(OrderItem item) {
 		items.add(item);
