@@ -11,6 +11,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		String palavra = "cacatua";
+		System.out.println("palabra");
 		String outra = sc.nextLine();
 		
 		//System.out.println(contLetras(palavra));
@@ -21,7 +22,7 @@ public class Program {
 		//String numero = "1";
 		
 	
-				
+		System.out.println("numero");
 		String numero = sc.next(); 
 				
 		//int num = Integer.valueOf(numero); //retorna um int
@@ -34,6 +35,11 @@ public class Program {
 		Double doub = Double.valueOf(numero); // retorna o valor primitivo
 		//Double doub = Double.parseDouble(numero); // retorna uma Wrapper class
 		System.out.println(doub);
+		
+		//substituir
+		
+		String replace = palavra.replace('a', 'o');
+		System.out.println(replace);
 	
 	}
 	
