@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="aula3_sobreposicao"/>
 	<classpathentry kind="src" path="aula4_exercicioPolimorfismo"/>
 	<classpathentry kind="src" path="Exercicio_fixacao"/>
+	<classpathentry kind="src" path="aula5_Abstratos_classes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
