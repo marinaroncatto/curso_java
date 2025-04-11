@@ -30,6 +30,11 @@ public class PessoaFisica extends Pessoa{
 		}else {
 			imposto = (rendaAnual * 0.25) - (gastoSaude * 0.5);			
 		}
+		
+		if (imposto < 0.0) {
+			imposto = 0.0;
+		}
+		
 		return imposto;
 	}
 

@@ -50,10 +50,13 @@ public class Exe02 {
 		System.out.println();
 		System.out.println("TAXES PAID:");
 		
+		for(Pessoa p: list) {
+			System.out.println(p.getNome()+" $ "+String.format("%.2f", p.imposto()));		
+		}
+		
 		double sum = 0.0;
 		
 		for(Pessoa p: list) {
-			System.out.println(p.getNome()+" $ "+String.format("%.2f", p.imposto()));
 			sum += p.imposto();
 		}
 		System.out.println();
