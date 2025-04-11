@@ -8,6 +8,7 @@
 	<classpathentry kind="src" path="Exercicio_fixacao"/>
 	<classpathentry kind="src" path="aula5_Abstratos_classes"/>
 	<classpathentry kind="src" path="aula6_metodosAbstratos"/>
+	<classpathentry kind="src" path="Exercicio_abstratos"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
