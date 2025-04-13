@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="aula1_trycatch"/>
 	<classpathentry kind="src" path="aula2_pilhasDeChamadas"/>
 	<classpathentry kind="src" path="aula3_finaly"/>
+	<classpathentry kind="src" path="aula4_excecoes_personalizadas"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
