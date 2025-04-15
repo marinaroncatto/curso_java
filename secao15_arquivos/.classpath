@@ -3,6 +3,10 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="aula1_file_scanner"/>
 	<classpathentry kind="src" path="aula2_FileReader_BufferedReader"/>
+	<classpathentry kind="src" path="aula3_try-with-resources"/>
+	<classpathentry kind="src" path="aula4_FileWriter_BufferedWriter"/>
+	<classpathentry kind="src" path="aula5_manipulandopastas_file"/>
+	<classpathentry kind="src" path="aula6_info_caminho_arquivo"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
