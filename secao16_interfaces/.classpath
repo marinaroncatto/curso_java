@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="aula2_HerdarVsCumprirContrato"/>
 	<classpathentry kind="src" path="aula3_problema_diamante"/>
 	<classpathentry kind="src" path="aula4_interface_comparable"/>
+	<classpathentry kind="src" path="aula5_defaultMethods"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
