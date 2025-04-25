@@ -3,6 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="aula1_generics"/>
 	<classpathentry kind="src" path="aula2_genericosDelimitados"/>
+	<classpathentry kind="src" path="aula3_tiposcoringa"/>
+	<classpathentry kind="src" path="aula4_tiposCoringasDelimitados"/>
+	<classpathentry kind="src" path="aula4_genericosDelimitados_getPut"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
