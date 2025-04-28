@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="aula3_tiposcoringa"/>
 	<classpathentry kind="src" path="aula4_tiposCoringasDelimitados"/>
 	<classpathentry kind="src" path="aula4_genericosDelimitados_getPut"/>
+	<classpathentry kind="src" path="aula5_HashCode_Equals"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
