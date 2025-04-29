@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Locale;
 
 import entities.Product;
+import entities.Product1;
 import services.CalculationService;
 
 public class Program0102 {

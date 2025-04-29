@@ -8,6 +8,7 @@
 	<classpathentry kind="src" path="aula4_genericosDelimitados_getPut"/>
 	<classpathentry kind="src" path="aula5_HashCode_Equals"/>
 	<classpathentry kind="src" path="aula6_set"/>
+	<classpathentry kind="src" path="aula7_set_teste_igualdade"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
