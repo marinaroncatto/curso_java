@@ -9,6 +9,10 @@
 	<classpathentry kind="src" path="aula5_HashCode_Equals"/>
 	<classpathentry kind="src" path="aula6_set"/>
 	<classpathentry kind="src" path="aula7_set_teste_igualdade"/>
+	<classpathentry kind="src" path="exercicio_set"/>
+	<classpathentry kind="src" path="exercicio_set2"/>
+	<classpathentry kind="src" path="aula8_map"/>
+	<classpathentry kind="src" path="aula8_map_com_objetos"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
