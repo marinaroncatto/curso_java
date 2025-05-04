@@ -9,7 +9,7 @@ import entities.Product2;
 public class Program02 {
 
 	public static void main(String[] args) {
-		// TODO usando método estático como referência
+		// TODO usando método não estático como referência
 
 		List<Product2> list = new ArrayList<>();
 
@@ -18,8 +18,8 @@ public class Program02 {
 		list.add(new Product2("Tablet", 350.50));
 		list.add(new Product2("HD Case", 80.90));
 
-		list.removeIf(Product2::staticProductPredicate);
-		//segunda forma
+		list.removeIf(Product2::nonStaticProductPredicate);
+		//terceira forma
 
 		for (Product2 p : list) {
 			System.out.println(p);
