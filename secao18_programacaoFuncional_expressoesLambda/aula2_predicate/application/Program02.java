@@ -2,6 +2,7 @@ package application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 import entities.Product2;
 
@@ -9,8 +10,7 @@ import entities.Product2;
 public class Program02 {
 
 	public static void main(String[] args) {
-		// TODO usando método não estático como referência
-
+		// TODO predicate com declaração lambda
 		List<Product2> list = new ArrayList<>();
 
 		list.add(new Product2("Tv", 900.00));
@@ -18,8 +18,12 @@ public class Program02 {
 		list.add(new Product2("Tablet", 350.50));
 		list.add(new Product2("HD Case", 80.90));
 
-		list.removeIf(Product2::nonStaticProductPredicate);
-		//terceira forma
+		double min = 100.0;
+		
+		Predicate<Product2> pred = p -> p.getPrice() >= min;
+		
+		list.removeIf(pred);
+		//quarta forma
 
 		for (Product2 p : list) {
 			System.out.println(p);
