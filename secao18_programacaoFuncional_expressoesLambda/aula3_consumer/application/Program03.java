@@ -8,7 +8,7 @@ import entities.Product3;
 public class Program03 {
 
 	public static void main(String[] args) {
-		// TODO v2 consumer com método estático
+		// TODO v3 consumer com método não estático
 		
 		List<Product3> list = new ArrayList<>();
 		 
@@ -17,7 +17,7 @@ public class Program03 {
  		list.add(new Product3("Tablet", 350.50));
  		list.add(new Product3("HD Case", 80.90));
  
- 		list.forEach(Product3::staticPriceUpdate);
+ 		list.forEach(Product3::nonStaticPriceUpdate);
  
  		list.forEach(System.out::println);
 

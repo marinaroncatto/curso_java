@@ -28,6 +28,10 @@ public class Product3 {
 	public static void staticPriceUpdate(Product3 p) {
 		p.setPrice(p.getPrice() * 1.1);
 	}
+	
+	public void nonStaticPriceUpdate() {
+		price = price  * 1.1;
+	}
 		
 	@Override
 	public String toString() {
