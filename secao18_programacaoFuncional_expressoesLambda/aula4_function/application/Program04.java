@@ -3,13 +3,13 @@ package application;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
 import entities.Product_func;
-import util.UpperCaseName;
 
 public class Program04 {
 
 	public static void main(String[] args) {
-		// TODO v2. function com metódo estático
+		// TODO v3. function com metódo não estático
 		
 		List<Product_func> list = new ArrayList<>();
 
@@ -18,7 +18,7 @@ public class Program04 {
 		list.add(new Product_func("Tablet", 350.50));
 		list.add(new Product_func("HD Case", 80.90));
 
-		List<String> names = list.stream().map(Product_func::staticUpperCaseName).collect(Collectors.toList());
+		List<String> names = list.stream().map(Product_func::nonStaticUpperCaseName).collect(Collectors.toList());
 				
 		names.forEach(System.out::println);
 
