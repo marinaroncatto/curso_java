@@ -9,7 +9,7 @@ import util.UpperCaseName;
 public class Program04 {
 
 	public static void main(String[] args) {
-		// TODO v1. function a partir da interface
+		// TODO v2. function com metódo estático
 		
 		List<Product_func> list = new ArrayList<>();
 
@@ -18,7 +18,7 @@ public class Program04 {
 		list.add(new Product_func("Tablet", 350.50));
 		list.add(new Product_func("HD Case", 80.90));
 
-		List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
+		List<String> names = list.stream().map(Product_func::staticUpperCaseName).collect(Collectors.toList());
 				
 		names.forEach(System.out::println);
 
