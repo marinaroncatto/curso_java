@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="aula3_consumer"/>
 	<classpathentry kind="src" path="aula4_function"/>
 	<classpathentry kind="src" path="aula5_funcos_recebendo_funcoes"/>
+	<classpathentry kind="src" path="aula6_streams"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
