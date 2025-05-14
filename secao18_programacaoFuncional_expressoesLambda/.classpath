@@ -9,6 +9,7 @@
 	<classpathentry kind="src" path="aula6_streams"/>
 	<classpathentry kind="src" path="aula7_pipeline_demo"/>
 	<classpathentry kind="src" path="aula8_exercicio_resolvido"/>
+	<classpathentry kind="src" path="exercicio"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
