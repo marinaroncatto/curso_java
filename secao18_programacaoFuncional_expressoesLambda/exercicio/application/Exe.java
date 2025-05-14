@@ -51,20 +51,22 @@ public class Exe {
 			
 			System.out.println("Email of people whose salary is more than "+String.format("%.2f", salary)+": ");
 			
-			Comparator<String> comp = (s1, s2) -> s1.toUpperCase().compareTo(s2.toUpperCase());
-			
+					
 			List<String> emails = list.stream()
 						.filter(e -> e.getSalary() > salary)
-						.map(e -> e.getEmail()).sorted(comp)
+						.map(e -> e.getEmail())
+						.sorted()
 						.collect(Collectors.toList());
+			
 			emails.forEach(System.out::println);												
 			
 			/*a soma dos salários dos funcionários cujo
 			nome começa com a letra 'M'.*/
 			
-			EmployeeService es = new EmployeeService();
-								
-			double sum = es.filteredSum(list, e -> e.getName().toUpperCase().charAt(0) == 'M'); 															
+			double sum = list.stream()
+						.filter(x -> x.getName().charAt(0) =='M')
+						.map(x -> x.getSalary())
+						.reduce(0.0, (x, y) -> x + y);			 															
 			
 			System.out.println("Sum of salary of people whose name starts with 'M': "+ String.format("%.2f", sum));
 						
