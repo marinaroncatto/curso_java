@@ -47,10 +47,11 @@ public class Program {
 		
 		try {
 			conn2 = DB.getConnection();
+			//Exemplo 1:
 			pst = conn2.prepareStatement(
 					"INSERT INTO seller (Name, Email, BirthDate, BaseSalary, DepartmentId)"
-					+ "VALUES (?, ?, ?, ?, ?)"
-					);
+					+ "VALUES (?, ?, ?, ?, ?)",
+					Statement.RETURN_GENERATED_KEYS);//retorna o(s) id(s) que serão criados
 			
 			pst.setString(1, "Carl Purple");
 			pst.setString(2, "carl@gmai.com");
@@ -58,9 +59,26 @@ public class Program {
 			pst.setDouble(4, 3000.0);
 			pst.setInt(5, 4);
 			
+			//EXAMPLE 2 inserindo mais de um Value:
+			//pst = conn2.prepareStatement(
+			//		"insert into department (Name) values ('D1'),('D2')", 
+			//		Statement.RETURN_GENERATED_KEYS);
+
+			
 			int rowsAffected = pst.executeUpdate();
 			
-			System.out.println("Done! Rows affected: " + rowsAffected);
+			//Informar os Ids criados
+			if(rowsAffected > 0) {
+				ResultSet rs = pst.getGeneratedKeys();
+				
+				while(rs.next()) {
+					int id = rs.getInt(1); //para retornar a primeira linha
+					System.out.println("Done! Id: " + id);
+				}
+			}else {
+				System.out.println("No rows affected!");
+			}
+			
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}catch(ParseException e) {
